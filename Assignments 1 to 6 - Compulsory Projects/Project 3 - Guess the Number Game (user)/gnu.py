@@ -10,14 +10,14 @@ print("-- -- -- -- -- -- -- -- -- -- -- -- --\n")
 print("""User 👤: I have a number between 1 and 6.
          Let's see if the computer can guess it!""")
 
-low = 1
-high = 6
+low : int = 1
+high : int = 6
 
 while True:
   computer_guess = random.randint(low, high)
   print(f"\nBOT 🤖: Is it {computer_guess}?")
 
-  feedback = input("\nEnter L if it's too Low, H if it's too High, or C if it's Correct: ").lower()
+  feedback : str = input("\nEnter L if it's too Low, H if it's too High, or C if it's Correct: ").lower()
 
   if feedback == 'l':
     low = computer_guess + 1
@@ -35,8 +35,8 @@ while True:
   else:
     print("Please enter a valid option: L, H, or C.")
 
-footer_A = "\nMade with ❤️  just for you!"
-footer_B = "by Muhammad Salman Hussain\n"
+footer_A : str = "\nMade with ❤️  just for you!"
+footer_B : str = "by Muhammad Salman Hussain\n"
 
 print(footer_A)
 print(footer_B)
