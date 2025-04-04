@@ -2,12 +2,12 @@
 
 import random
 
-print("\n-- -- -- -- -- -- -- -- -- -- -- --")
-print("          GUESS THE NUMBER         ")
-print("  Play with computer and have fun! ")
-print("-- -- -- -- -- -- -- -- -- -- -- --\n")
+print("\n-- -- -- -- -- -- -- -- -- -- -- -- --")
+print("           GUESS THE NUMBER         ")
+print(" Play with the computer and have fun! ")
+print("-- -- -- -- -- -- -- -- -- -- -- -- --\n")
 
-print("""User 👤: I have a number between 1 to 6.
+print("""User 👤: I have a number between 1 and 6.
          Let's see if the computer can guess it!""")
 
 low = 1
