@@ -6,10 +6,10 @@ def funny_line():
     print("  Let's create a funny line! ")
     print("-- -- -- -- -- -- -- -- -- --")
 
-    adj = input("Enter an adjective: ")
-    noun = input("Enter a noun: ")
-    verb = input("Enter a verb: ")
-    place = input("Enter a place: ")
+    adj = input("Enter an adjective: ").lower()
+    noun = input("Enter a noun: ").lower()
+    verb = input("Enter a verb: ").lower()
+    place = input("Enter a place: ").lower()
 
     line_1 = f"Today, a {adj} {noun} decided to {verb} all the way to {place}..."
 
