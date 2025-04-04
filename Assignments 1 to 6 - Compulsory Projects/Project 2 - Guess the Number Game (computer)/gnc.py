@@ -12,6 +12,8 @@ random_number = random.randint(1, 6)
 while True:
   user_guess = int(input("Guess the number between 1 to 6: "))
 
+  print(random_number)
+
   if user_guess < random_number:
     print("\nYour guess is too low!")
   elif user_guess > random_number:
