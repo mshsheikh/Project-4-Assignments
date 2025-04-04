@@ -17,5 +17,6 @@ def create_story():
     print(story)
 
     print("\nMade with ❤️  just for you!\n")
+    print("\nby Muhammad Salman Hussain\n")
 
 create_story()
