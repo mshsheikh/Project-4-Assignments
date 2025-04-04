@@ -2,24 +2,20 @@
 
 import random
 
-print("\n-- -- -- -- -- -- -- -- -- -- -- --")
+print("-- -- -- -- -- -- -- -- -- -- -- --")
 print("          GUESS THE NUMBER         ")
 print("  Play with computer and have fun! ")
-print("-- -- -- -- -- -- -- -- -- -- -- --\n")
+print("-- -- -- -- -- -- -- -- -- -- -- --")
 
 random_number = random.randint(1, 6)
 
 while True:
-  print("""BOT 🤖: I have a number between 1 to 6.
-        Can you guess it?""")
-  user_guess = int(input("\nEnter your guess here: "))
-
-  print(f"BOT think {random_number}, and you guess {user_guess}.")
+  user_guess = int(input("Guess the number between 1 to 6: "))
 
   if user_guess < random_number:
-    print("\nYour guess was too low!")
+    print("\nYour guess is too low!")
   elif user_guess > random_number:
-    print("\nYour guess was too high!")
+    print("\nYour guess is too high!")
 
   else: print("\nYay! That's correct!")
 
