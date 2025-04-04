@@ -12,7 +12,7 @@ random_number = random.randint(1, 6)
 while True:
   user_guess = int(input("Guess the number between 1 to 6: "))
 
-  print(random_number)
+  print(f"Computer think {random_number}, you guess {user_guess}.")
 
   if user_guess < random_number:
     print("\nYour guess is too low!")
