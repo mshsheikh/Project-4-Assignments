@@ -1,9 +1,9 @@
-# Mad Libs Fun
+# Mad Libs Fun - by mshsheikh
 
 def create_story():
     print("-- -- -- -- -- -- -- -- -- --")
-    print("       M A D   L I B S     ")
-    print(" Let's create a funny story!")
+    print("       M A D    L I B S      ")
+    print("  Let's create a funny line! ")
     print("-- -- -- -- -- -- -- -- -- --")
 
     adjective = input("Enter an adjective: ")
@@ -13,10 +13,10 @@ def create_story():
 
     story = f"Today, a {adjective} {noun} decided to {verb} all the way to {place}..."
 
-    print("\nYour Story:")
+    print("\nYour funny line:")
     print(story)
 
-    print("\nMade with ❤️  just for you!\n")
-    print("\nby Muhammad Salman Hussain\n")
+    print("\nMade with ❤️  just for you!")
+    print("by Muhammad Salman Hussain\n")
 
 create_story()
