@@ -15,7 +15,7 @@ words = [
 word = random.choice(words)
 word = word.upper()
 
-print(word)
+## print(word) # (CHEAT CODE) #
 
 display = " "
 
