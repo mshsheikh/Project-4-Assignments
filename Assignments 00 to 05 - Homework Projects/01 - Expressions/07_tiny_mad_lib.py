@@ -3,7 +3,15 @@ print("  01 - EXPRESSIONS ")
 print("   Tiny Mad Libs     ")
 print("-- -- -- -- -- -- --\n")
 
+jumla = "Code in Karachi is fun. I saw how people take wrong ways on the road to take"
 
+adj = input("Enter an adjective: ")
+noun = input("Enter a noun: ")
+verb = input("Enter a verb: ")
+
+line1 = f"{jumla} {adj.lower()} {noun.lower()} {verb.lower()}!"
+
+print("\n" + line1 + "\n")
 
 footer_A : str = "\nCoded by Muhammad Salman Hussain\n"
 print(footer_A)
