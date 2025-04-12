@@ -3,7 +3,7 @@ print("  01 - EXPRESSIONS ")
 print("   Tiny Mad Libs     ")
 print("-- -- -- -- -- -- --\n")
 
-jumla = "Roads in Karachi are fun. I saw how people take wrong ways on the road to take"
+jumla = "Roads in Karachi are fun. I saw how people take wrong ways on the road to tak"
 
 adj = input("Enter an adjective: ")
 noun = input("Enter a noun: ")
