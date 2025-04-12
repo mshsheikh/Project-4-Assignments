@@ -9,7 +9,7 @@ adj = input("Enter an adjective: ")
 noun = input("Enter a noun: ")
 verb = input("Enter a verb: ")
 
-line1 = f"{jumla} {adj.lower()} w{noun.lower()} {verb.lower()}!"
+line1 = f"{jumla} {adj.lower()} wi{noun.lower()} {verb.lower()}!"
 
 print("\n" + line1 + "\n")
 
