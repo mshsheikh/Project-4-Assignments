@@ -11,7 +11,7 @@ verb = input("Enter a verb: ")
 
 line1 = f"{jumla} {adj.lower()} with {noun.lower()} {verb.lower()}!"
 
-print("\line1)
+print(line1)
 
 footer_A : str = "\nCoded by Muhammad Salman Hussain\n"
 print(footer_A)
