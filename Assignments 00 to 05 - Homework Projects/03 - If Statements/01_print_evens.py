@@ -1,6 +1,6 @@
 print("\n-- -- -- -- -- -- -- -- -- -- --")
-print("       03 - FOR LOOP BASICS      ")
-print("          Printing Evens      ")
+print("       03 - IF STATEMENTS         ")
+print("          Print Evens             ")
 print("-- -- -- -- -- -- -- -- -- -- --\n")
 
 for X in range(20):
