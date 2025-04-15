@@ -1,5 +1,5 @@
 print("\n-- -- -- -- -- -- -- -- -- --")
-print("      04 - IF STATEMENTS       ")
+print("      03 - IF STATEMENTS       ")
 print("   International Voting Age    ")
 print("-- -- -- -- -- -- -- -- -- --\n")
 
